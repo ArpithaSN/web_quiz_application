@@ -1,0 +1,72 @@
+body {
+    background-color: #888ba5;
+
+}
+
+.grid {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 50px 50px 50px;
+    border-radius: 50px;
+    border: 2px solid rgb(22, 23, 88);
+    box-shadow: 10px 15px 5px #2e3255;
+}
+
+.grid h1 {
+    font-family: cursive;
+    background-color: #150474;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    padding: 2px 0px;
+    border-radius: 50px;
+}
+
+.grid #questions {
+    font-family: cursive;
+    font-size: 30px;
+    color: #0a125e;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: #090b68;
+    width: 250px;
+    font-size: 20px;
+    font-family: cursive;
+    color: white;
+    border: 1px solid #090b68;
+    border-radius: 50px;
+    margin: 10px 40px 10px 0px;
+    padding: 10px, 10px;
+}
+
+#score {
+    color: #090b68;
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+#progress {
+    color: #090b68;
+    font-size: 18px;
+    font-family: cursive;
+    
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: #e2438d;
+
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+
+}
